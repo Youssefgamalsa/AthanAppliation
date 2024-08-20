@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.card {
+  color: #fff;
+  margin-left:10px;
+  border:2px solid #fff;
+  margin-bottom: 10px;
+  padding:2px;
+}
+.card-title{
+    font-size:30px;
+    font-weight:400;
+    text-align:right ;
+    margin-bottom:10px;
+}
+.card-img-top{
+    width: 100%;
+    object-fit: cover;
+    height:200px;
+}
+.card-text{
+    font-size:80px;
+    /* font-weight:700; */
+    color:#999
+}

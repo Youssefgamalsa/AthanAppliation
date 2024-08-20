@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800;900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-family: "cairo";
+}
+.App-header {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  min-height: 100%;
+}
+
+.cards {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /* justify-content: space-between; */
+}
+select option {
+  background: #fff;
+  color: #111;
+  width: 80%;
+}
+.selects {
+  gap: 50px 100px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
+}
